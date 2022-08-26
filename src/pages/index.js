@@ -8,8 +8,8 @@ export default function Home() {
     <Layout>
       <section className={styles.header}>
         <div>
-          <h1>Hello World</h1>
-          <h2>Develop and Deploy</h2>
+          <h3>Welcome to Revolution Gymnastics and Sports Centre</h3>
+          <h4>​As Kitchener-Waterloo's longest standing gymnastics club owned by gymnastics professionals, we offer a complete range of Recreational Programs for boys and girls, and a world-class Competitive Gymnastics program</h4>
           <p>Revolution website new</p>
           <Link className={styles.btn} to="/about">
             My Portfolio Projects
