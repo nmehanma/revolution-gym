@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react"
+import Layout from "./components/Layout"
 
 export default function events() {
   return (
-    <div>events</div>
+    <Layout>
+      <div>events</div>
+    </Layout>
   )
 }
