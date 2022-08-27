@@ -1,0 +1,17 @@
+.coach-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coach-list div {
+  text-align: center;
+}
+
+.coach-list div img {
+  height: 100%;
+  /* width: 50%; */
+}
+

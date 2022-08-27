@@ -8,7 +8,7 @@ export default function Footer() {
       <div>
         <p>Copyright 2022 Revolution Gymnastics</p>
       </div>
-      <div>
+      <div className="social-icons">
         <p>Reach out to us on our different platforms!</p>
         <a href="https://www.facebook.com/RevGymCanada">
           <FaFacebookF />

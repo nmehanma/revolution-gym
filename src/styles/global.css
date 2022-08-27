@@ -47,4 +47,5 @@ footer p{
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+  /* min-height: 100vh; */
 }

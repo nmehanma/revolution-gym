@@ -3,8 +3,17 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* min-height: 150vh; */
 
 }
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+} 
 
 /* footer p{
   text-align: center;

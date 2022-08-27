@@ -6,6 +6,8 @@ import amandaImage from "./staffImages/amanda.jpeg"
 import cassidyImage from "./staffImages/cassidy.jpeg"
 import stefanieImage from "./staffImages/stefanie.jpeg"
 import * as styles from "../../styles/staff.module.css"
+import Coachingstaff from "../components/CoachingStaff/CoachingStaff"
+import "./staff.css"
 
 export default function staff() {
   return (
@@ -86,6 +88,7 @@ export default function staff() {
           </p>
         </div>
       </div>
+      <Coachingstaff />
     </Layout>
   )
 }
