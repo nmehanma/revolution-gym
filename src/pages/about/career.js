@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../../styles/career.module.css"
 
-
 export default function career() {
   return (
     <Layout>
@@ -16,14 +15,13 @@ export default function career() {
           opportunities, and have an all-around positive working experience
         </div>
         <h2>Current Opportunities</h2>
-        <a
-          href="/careerDocs/partTime.pdf"
-          title="Download Job"
-          download
-        >
+        <a href="/careerDocs/partTime.pdf" title="Download Job" download>
           Part_Time
         </a>
-        <p>For more information, please contact us at info@revolutiongym.ca, or (519) 746-9905.</p>
+        <p>
+          For more information, please contact us at info@revolutiongym.ca, or
+          (519) 746-9905.
+        </p>
       </div>
     </Layout>
   )
