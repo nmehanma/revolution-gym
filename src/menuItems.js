@@ -1,8 +1,8 @@
 export const menuItems = [
-  {
-    title: "Home",
-    url: "/",
-  },
+  // {
+  //   title: "Home",
+  //   url: "/",
+  // },
   {
     title: "About",
     url: "/about",
@@ -30,16 +30,22 @@ export const menuItems = [
     ],
   },
   {
+    title: "Recreational",
+    url: "/recreational",
+    submenu: [
+      {
+        title: "toddler",
+        url: "staff",
+      },
+    ],
+  },
+  {
     title: "Camps",
     url: "/camp",
   },
   {
     title: "Competitive",
     url: "/competitive",
-  },
-  {
-    title: "Recreational",
-    url: "/recreational",
   },
   {
     title: "Event",

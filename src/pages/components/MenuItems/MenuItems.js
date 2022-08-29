@@ -7,6 +7,13 @@ import { useState } from "react"
 
 const MenuItems = ({ items }) => {
   const [dropdown, setDropdown] = useState(false)
+  const onMouseEnter = () => {
+    window.innerWidth > 960 && setDropdown(true)
+  }
+
+  const onMouseLeave = () => {
+    window.innerWidth > 960 && setDropdown(false)
+  }
 
   const updateDropdown = title => {
     setDropdown(title)
@@ -18,13 +25,12 @@ const MenuItems = ({ items }) => {
         <>
           <Link
             aria-expanded={dropdown ? "true" : "false"}
-            onMouseEnter={() => setDropdown(prev => !prev)}
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
             to={items.url}
           >
             {items.title}
           </Link>
-          {/* {items.title}{" "} */}
-          {/* </button> */}
           <Dropdown
             updateDropdown={updateDropdown}
             submenus={items.submenu}

@@ -25,7 +25,7 @@ p {
 }
 
 /* layout & nav */
-.layout {
+.layout, .navbar-layout, .footer-layout {
   max-width: 1200px;
   margin: 0 auto;
 }

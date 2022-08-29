@@ -5,10 +5,16 @@ import Footer from "./Footer/footer.js"
 
 export default function Layout({ children }) {
   return (
-    <div className="layout">
-      <Navbar />
-      <div className="content">{children}</div>
-      <Footer />
-    </div>
+    <>
+      <div className="navbar-layout">
+        <Navbar />
+      </div>
+      <div className="layout">
+        <div className="content">{children}</div>
+      </div>
+      <div className="footer-layout">
+        <Footer />
+      </div>
+    </>
   )
 }
