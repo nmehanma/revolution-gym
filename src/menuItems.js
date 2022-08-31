@@ -23,10 +23,6 @@ export const menuItems = [
         title: "Sponsor",
         url: "sponsor",
       },
-      {
-        title: "Staff",
-        url: "staff",
-      },
     ],
   },
   {
@@ -35,7 +31,7 @@ export const menuItems = [
     submenu: [
       {
         title: "toddler",
-        url: "staff",
+        url: "toddler",
       },
     ],
   },

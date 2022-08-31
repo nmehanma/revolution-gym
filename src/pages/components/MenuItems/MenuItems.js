@@ -31,11 +31,14 @@ const MenuItems = ({ items }) => {
           >
             {items.title}
           </Link>
-          <Dropdown
-            updateDropdown={updateDropdown}
-            submenus={items.submenu}
-            dropdown={dropdown}
-          />
+          {
+            <Dropdown
+              updateDropdown={updateDropdown}
+              items = {items}
+              submenus={items.submenu}
+              dropdown={dropdown}
+            />
+          }
         </>
       ) : (
         <Link to={items.url}>{items.title}</Link>
