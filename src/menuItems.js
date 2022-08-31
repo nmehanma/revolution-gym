@@ -84,12 +84,28 @@ export const menuItems = [
         url: "competitiveteam",
       },
       {
-        title: "Competitive Team",
-        url: "competitiveteam",
+        title: "Coaching Education ",
+        url: "coachingEducation",
       },
       {
         title: "Competitive Team",
         url: "competitiveteam",
+      },
+      {
+        title: "Perfect Balance",
+        url: "perfectbalance",
+      },
+      {
+        title: "Wall of Honour",
+        url: "wallofhonour",
+      },
+      {
+        title: "NCAA stars",
+        url: "ncaastars",
+      },
+      {
+        title: "NCAA Hopefuls",
+        url: "ncaahopefuls",
       },
     ],
   },
