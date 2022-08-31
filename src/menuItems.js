@@ -78,6 +78,20 @@ export const menuItems = [
   {
     title: "Competitive",
     url: "/competitive",
+    submenu: [
+      {
+        title: "Competitive Team",
+        url: "competitiveteam",
+      },
+      {
+        title: "Competitive Team",
+        url: "competitiveteam",
+      },
+      {
+        title: "Competitive Team",
+        url: "competitiveteam",
+      },
+    ],
   },
   {
     title: "Event",
