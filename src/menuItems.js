@@ -30,8 +30,48 @@ export const menuItems = [
     url: "/recreational",
     submenu: [
       {
-        title: "toddler",
+        title: "Toddler",
         url: "toddler",
+      },
+      {
+        title: "Pre-School",
+        url: "pre-school",
+      },
+      {
+        title: "Girls",
+        url: "girls",
+      },
+      {
+        title: "Boys",
+        url: "boys",
+      },
+      {
+        title: "Trampoline-Tumbling",
+        url: "trampoline-tumbling",
+      },
+      {
+        title: "Advanced-Recreational",
+        url: "advanced-recreational",
+      },
+      {
+        title: "Trampoline-Tumbling",
+        url: "trampoline-tumbling",
+      },
+      {
+        title: "Open-Gym",
+        url: "open-gym",
+      },
+      {
+        title: "Trampoline-Tumbling",
+        url: "trampoline-tumbling",
+      },
+      {
+        title: "Trial-class",
+        url: "trial-class",
+      },
+      {
+        title: "Private-Lessons",
+        url: "private-lesson",
       },
     ],
   },
