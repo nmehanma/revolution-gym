@@ -35,7 +35,7 @@ export const menuItems = [
       },
       {
         title: "Pre-School",
-        url: "pre-school",
+        url: "preschool",
       },
       {
         title: "Girls",
@@ -47,31 +47,27 @@ export const menuItems = [
       },
       {
         title: "Trampoline-Tumbling",
-        url: "trampoline-tumbling",
+        url: "trampolinetumbling",
       },
       {
         title: "Advanced-Recreational",
-        url: "advanced-recreational",
+        url: "advancedrecreational",
       },
       {
         title: "Trampoline-Tumbling",
-        url: "trampoline-tumbling",
+        url: "trampolinetumbling",
       },
       {
         title: "Open-Gym",
-        url: "open-gym",
-      },
-      {
-        title: "Trampoline-Tumbling",
-        url: "trampoline-tumbling",
+        url: "opengym",
       },
       {
         title: "Trial-class",
-        url: "trial-class",
+        url: "trialclass",
       },
       {
         title: "Private-Lessons",
-        url: "private-lesson",
+        url: "privatelesson",
       },
     ],
   },

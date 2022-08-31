@@ -28,7 +28,7 @@ export default function toddler() {
         </p>
 
         <h2>
-          <a href="https://revolutiongym.uplifterinc.com/registration/" target="_blank" >Ready to register? Click Here!</a>
+          <a href="https://revolutiongym.uplifterinc.com/registration/" target="_blank" rel="noreferrer" >Ready to register? Click Here!</a>
         </h2>
       </div>
     </Layout>
