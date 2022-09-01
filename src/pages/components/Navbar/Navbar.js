@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import "./navbar.css"
+import logo from "../../../../public/images/logo.png"
 
 // import Nav from "react-bootstrap/Nav"
 // import NavDropdown from "react-bootstrap/NavDropdown"
@@ -13,6 +14,7 @@ export default function navbar() {
   return (
     <nav>
       <Link to="/">
+        {/* <h1><img src={logo}></img></h1> */}
         <h1>Revolution Gymnastics</h1>
       </Link>
       <div className="menus">
