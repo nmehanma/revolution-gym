@@ -5,7 +5,7 @@ import "./navbar.css"
 // import Nav from "react-bootstrap/Nav"
 // import NavDropdown from "react-bootstrap/NavDropdown"
 // import Navbar from "react-bootstrap/Navbar"
-import * as styles from "../../../styles/navbar.module.css"
+// import * as styles from "../../../styles/navbar.module.css"
 import { menuItems } from "../../../menuItems"
 import MenuItems from "../MenuItems/MenuItems"
 

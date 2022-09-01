@@ -74,6 +74,24 @@ export const menuItems = [
   {
     title: "Camps",
     url: "/camp",
+    submenu: [
+      {
+        title: "March Break",
+        url: "marchbreak",
+      },
+      {
+        title: "PD Day",
+        url: "pdday",
+      },
+      {
+        title: "Summer Camp",
+        url: "summer",
+      },
+      {
+        title: "Winter Camp",
+        url: "winter",
+      },
+    ],
   },
   {
     title: "Competitive",
@@ -110,7 +128,17 @@ export const menuItems = [
     ],
   },
   {
-    title: "Event",
+    title: "Events",
     url: "/event",
+    submenu: [
+      {
+        title: "Kid's Night Out",
+        url: "kidsnightout",
+      },
+      {
+        title: "Birthday",
+        url: "birthday",
+      },
+    ],
   },
 ]
