@@ -7,7 +7,6 @@ import logo from "../../../../public/images/logo.png"
 // import NavDropdown from "react-bootstrap/NavDropdown"
 // import Navbar from "react-bootstrap/Navbar"
 // import * as styles from "../../../styles/navbar.module.css"
-// import { menuItems } from "../../../menuItems"
 import MenuItems from "../MenuItems/MenuItems"
 
 export default function Navbar() {
