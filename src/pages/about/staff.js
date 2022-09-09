@@ -1,6 +1,7 @@
 import React from "react"
+// import { graphql, useStaticQuery } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
-import aaronImage from "./staffImages/aaron.jpeg"
 import angelaImage from "./staffImages/angela.jpeg"
 import amandaImage from "./staffImages/amanda.jpeg"
 import cassidyImage from "./staffImages/cassidy.jpeg"
@@ -9,13 +10,23 @@ import * as styles from "../../styles/staff.module.css"
 import Coachingstaff from "../components/CoachingStaff/CoachingStaff"
 import "../../styles/staff.css"
 
-export default function staff() {
+export default function Staff() {
+  // let dataTrack = data.staffPhotos.edges.map(image =>
+  //   image.node.base === "angela.jpeg"
+  //     ? console.log("true")
+  //     : console.log("false")
+  // )
+
+  // console.log(dataTrack)
+
   return (
     <Layout>
       <div>
         <h1>Staff</h1>
         <div className={styles.layout}>
-          <img src={aaronImage} alt="" />
+          <StaticImage src={"../../data/staffImages/aaron.jpeg"} />
+
+          {/* <img src={aaronImage} alt="" /> */}
           <h3>Aaron Brokenshire</h3>
           <p>
             Aaron Brokenshire –Master Coach- NCCP Level 4 Aaron has over two
@@ -31,7 +42,8 @@ export default function staff() {
             Commonwealth Games, Pacific Rim, Olympic Trials, and World
             Championships.
           </p>
-          <img src={angelaImage} alt="" />
+          <StaticImage src={"../../data/staffImages/angela.jpeg"} />
+          {/* <img src={angelaImage} alt="" /> */}
           <h3>Angela Brokenshire - Director</h3>
           <p>
             Angela was an International gymnast in the early 1990s, competing

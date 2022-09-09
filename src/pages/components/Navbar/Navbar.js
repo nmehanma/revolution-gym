@@ -38,7 +38,6 @@ export default function Navbar() {
       </Link>
       <div className="menus">
         {menuLinks.map((menu, index) => {
-          console.log(menu, index)
           return <MenuItems items={menu} key={index} />
         })}
       </div>

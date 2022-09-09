@@ -7,22 +7,25 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    // `gatsby-transformer-json`,
+    `gatsby-transformer-json`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: {
-    //     name: `pages`,
-    //     path: `${__dirname}/src`,
+    //     name: `images`,
+    //     path: `${__dirname}/src/data`,
     //   },
     // },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `data`,
-    //     path: `${__dirname}/src/data/`,
-    //     ignore: [`**/\.*`], // ignore files starting with a dot
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
   ],
   siteMetadata: {
     title: "Revolution Gymnastics",

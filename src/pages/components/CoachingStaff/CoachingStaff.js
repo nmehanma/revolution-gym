@@ -1,4 +1,6 @@
 import React from "react"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import amandaImage from "../../about/staffImages/amanda.jpeg"
 import yaleImage from "../../about/staffImages/yale.jpeg"
 import madisonImage from "../../about/staffImages/madison.jpeg"
@@ -13,10 +15,13 @@ import jadenImage from "../../about/staffImages/jaden.jpeg"
 import "./coachingstaff.css"
 
 export default function Coachingstaff() {
+
   return (
     <div>
       <h1>Competitive and Recreational Coaching Staff</h1>
       <div className="coach-list">
+
+        
         <div>
           <img src={amandaImage} alt="" />
           <h3>Amanda - Competitive Coach</h3>
