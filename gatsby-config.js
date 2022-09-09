@@ -32,24 +32,24 @@ module.exports = {
       {
         title: "About",
         url: "/about",
-        // subMenu: [
-        //   {
-        //     title: "Staff",
-        //     url: "staff",
-        //   },
-        //   {
-        //     title: "Career",
-        //     url: "career",
-        //   },
-        //   {
-        //     title: "Clinic",
-        //     url: "clinic",
-        //   },
-        //   {
-        //     title: "Sponsor",
-        //     url: "sponsor",
-        //   },
-        // ],
+        subMenu: [
+          {
+            title: "Staff",
+            url: "staff",
+          },
+          {
+            title: "Career",
+            url: "career",
+          },
+          {
+            title: "Clinic",
+            url: "clinic",
+          },
+          {
+            title: "Sponsor",
+            url: "sponsor",
+          },
+        ],
       },
       {
         title: "Recreational",

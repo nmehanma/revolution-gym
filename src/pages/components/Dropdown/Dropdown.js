@@ -3,18 +3,17 @@ import { Link } from "gatsby"
 import "./dropdown.css"
 import { useState } from "react"
 
-const Dropdown = ({ submenus, updateDropdown, dropdown, items }) => {
+const Dropdown = ({ subMenus, updateDropdown, dropdown, items }) => {
   // console.log(items.url)
   return (
     <ul className={`dropdown${dropdown ? "show" : ""}`}>
-      {submenus.map((submenu, index) => (
-        // console.log(submenu),
+      {subMenus.map((subMenu, index) => (
         <div key={index} className="menu-items">
           <Link
             onMouseLeave={() => updateDropdown(prev => !prev)}
-            to={`${items.url}/${submenu.url}`}
+            to={`${items.url}/${subMenu.url}`}
           >
-            {submenu.title}
+            {subMenu.title}
           </Link>
         </div>
       ))}

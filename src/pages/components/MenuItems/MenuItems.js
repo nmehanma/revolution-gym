@@ -21,7 +21,7 @@ const MenuItems = ({ items }) => {
 
   return (
     <div className="menu-items">
-      {items.submenu ? (
+      {items.subMenu ? (
         <>
           <Link
             aria-expanded={dropdown ? "true" : "false"}
@@ -35,7 +35,7 @@ const MenuItems = ({ items }) => {
             <Dropdown
               updateDropdown={updateDropdown}
               items = {items}
-              submenus={items.submenu}
+              subMenus={items.subMenu}
               dropdown={dropdown}
             />
           }
