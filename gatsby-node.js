@@ -1,37 +1,37 @@
-// exports.createSchemaCustomization = ({ actions }) => {
-//   const { createFieldExtension, createTypes } = actions
-//   createFieldExtension({
-//     name: `defaultArray`,
-//     extend() {
-//       return {
-//         resolve(source, args, context, info) {
-//           if (source[info.fieldName] == null) {
-//             return []
-//           }
-//           return source[info.fieldName]
-//         },
-//       }
-//     },
-//   })
-//   const typeDefs = `
-//   type site implements Node {
-//    siteMetadata: siteMetadata
-//   }
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createFieldExtension, createTypes } = actions
+  createFieldExtension({
+    name: `defaultArray`,
+    extend() {
+      return {
+        resolve(source, args, context, info) {
+          if (source[info.fieldName] == null) {
+            return []
+          }
+          return source[info.fieldName]
+        },
+      }
+    },
+  })
+  const typeDefs = `
+  type Site implements Node {
+   siteMetadata: SiteMetadata
+  }
 
-//   type siteMetadata {
-//     menuLinks: [MenuLinks]
-//   }
+  type SiteMetadata {
+    menuLinks: [MenuLinks]
+  }
 
-//   type MenuLinks {
-//     title: String
-//     url: String
-//     subMenu: [SubMenu] @defaultArray
-//   }
+  type MenuLinks {
+    title: String
+    url: String
+    subMenu: [SubMenu] @defaultArray
+  }
 
-//   type SubMenu{
-//     title: String!
-//     url: String!
-//   }
-//   `
-//   createTypes(typeDefs)
-// }
+  type SubMenu{
+    title: String!
+    url: String!
+  }
+  `
+  createTypes(typeDefs)
+}

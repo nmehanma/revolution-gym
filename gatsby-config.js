@@ -32,29 +32,29 @@ module.exports = {
       {
         title: "About",
         url: "/about",
-        submenu: [
-          {
-            title: "Staff",
-            url: "staff",
-          },
-          {
-            title: "Career",
-            url: "career",
-          },
-          {
-            title: "Clinic",
-            url: "clinic",
-          },
-          {
-            title: "Sponsor",
-            url: "sponsor",
-          },
-        ],
+        // subMenu: [
+        //   {
+        //     title: "Staff",
+        //     url: "staff",
+        //   },
+        //   {
+        //     title: "Career",
+        //     url: "career",
+        //   },
+        //   {
+        //     title: "Clinic",
+        //     url: "clinic",
+        //   },
+        //   {
+        //     title: "Sponsor",
+        //     url: "sponsor",
+        //   },
+        // ],
       },
       {
         title: "Recreational",
         url: "/recreational",
-        submenu: [
+        subMenu: [
           {
             title: "Toddler",
             url: "toddler",
@@ -100,7 +100,7 @@ module.exports = {
       {
         title: "Camps",
         url: "/camp",
-        submenu: [
+        subMenu: [
           {
             title: "March Break",
             url: "marchbreak",
@@ -122,7 +122,7 @@ module.exports = {
       {
         title: "Competitive",
         url: "/competitive",
-        submenu: [
+        subMenu: [
           {
             title: "Competitive Team",
             url: "competitiveteam",
@@ -156,7 +156,7 @@ module.exports = {
       {
         title: "Events",
         url: "/event",
-        submenu: [
+        subMenu: [
           {
             title: "Kid's Night Out",
             url: "kidsnightout",

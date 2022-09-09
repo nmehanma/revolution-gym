@@ -18,7 +18,7 @@ export default function Navbar() {
             menuLinks {
               title
               url
-              submenu {
+              subMenu {
                 title
                 url
               }
