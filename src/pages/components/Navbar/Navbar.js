@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import React from "react"
 import "./navbar.css"
 import logo from "../../../../public/images/logo.png"
@@ -7,18 +7,39 @@ import logo from "../../../../public/images/logo.png"
 // import NavDropdown from "react-bootstrap/NavDropdown"
 // import Navbar from "react-bootstrap/Navbar"
 // import * as styles from "../../../styles/navbar.module.css"
-import { menuItems } from "../../../menuItems"
+// import { menuItems } from "../../../menuItems"
 import MenuItems from "../MenuItems/MenuItems"
 
-export default function navbar() {
+export default function Navbar() {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            menuLinks {
+              title
+              url
+              submenu {
+                title
+                url
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+
+  const menuLinks = data.site.siteMetadata.menuLinks
+
   return (
     <nav>
       <Link to="/">
-        {/* <h1><img src={logo}></img></h1> */}
         <h1>Revolution Gymnastics</h1>
       </Link>
       <div className="menus">
-        {menuItems.map((menu, index) => {
+        {menuLinks.map((menu, index) => {
+          console.log(menu, index)
           return <MenuItems items={menu} key={index} />
         })}
       </div>

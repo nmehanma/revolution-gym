@@ -6,24 +6,7 @@ export const menuItems = [
   {
     title: "About",
     url: "/about",
-    submenu: [
-      {
-        title: "Staff",
-        url: "staff",
-      },
-      {
-        title: "Career",
-        url: "career",
-      },
-      {
-        title: "Clinic",
-        url: "clinic",
-      },
-      {
-        title: "Sponsor",
-        url: "sponsor",
-      },
-    ],
+    
   },
   {
     title: "Recreational",
