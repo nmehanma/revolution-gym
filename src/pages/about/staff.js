@@ -57,7 +57,8 @@ export default function Staff() {
             certified in standard first aid and CPR. Outside of the gym Angela
             enjoys travel, golf, photography and dance.
           </p>
-          <img src={cassidyImage} alt="" />
+          <StaticImage src={"../../data/staffImages/cassidy.jpeg"} />
+          {/* <img src={cassidyImage} alt="" /> */}
           <h3>Cassidy Volmer - Competitive Manager</h3>
           <p>
             Cassidy has been a part of our competitive team for the past two
@@ -68,7 +69,8 @@ export default function Staff() {
             teaching strong basics. In her free time, she enjoys traveling and
             spending time with her dog, Mazie.
           </p>
-          <img src={stefanieImage} alt="" />
+          <StaticImage src={"../../data/staffImages/stefanie.jpeg"} />
+          {/* <img src={stefanieImage} alt="" /> */}
           <h3>Stefanie Merkle - Excel/Boys Program Manager </h3>
           <p>
             Stefanie has been part of our competitive staff for the past 3
@@ -83,7 +85,8 @@ export default function Staff() {
             sports industry degree. In her free time, Stefanie enjoys staying
             active and spending time with her family.
           </p>
-          <img src={amandaImage} alt="" />
+          <StaticImage src={"../../data/staffImages/amanda.jpeg"} />
+          {/* <img src={amandaImage} alt="" /> */}
           <h3>Amanda Bowes - Competitive Coach </h3>
           <p>
             Stefanie has been part of our competitive staff for the past 3
