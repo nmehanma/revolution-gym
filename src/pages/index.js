@@ -1,11 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "./components/Layout"
 import * as styles from "../styles/home.module.css"
+import ImageCarousel from "./components/ImageCarousel/ImageCarousel"
 
 export default function Home() {
+
   return (
     <Layout>
+      <ImageCarousel  />
       <section className={styles.header}>
         <div>
           <h3>Welcome to Revolution Gymnastics and Sports Centre</h3>
